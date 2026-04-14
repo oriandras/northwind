@@ -1,0 +1,28 @@
+# Ignore WordPress core files
+/*
+!wp-content/
+
+# Ignore everything in wp-content except themes and plugins
+wp-content/*
+!wp-content/themes/
+!wp-content/plugins/
+
+# Ignore everything in themes except northwind
+wp-content/themes/*
+!wp-content/themes/northwind/
+
+# Ignore everything in plugins except those starting with nw-
+wp-content/plugins/*
+!wp-content/plugins/nw-*/
+
+# Common exclusions
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/languages/
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+*.log
