@@ -1,0 +1,6 @@
+// 1. Saját override-ok
+$primary: #0056b3; // a Nortwind-kék
+$secondary: #f8f9fa;
+$body-bg: #ffffff;
+// 2. A Bootstrap forrás behúzása
+@import "node_modules/bootstrap/scss/bootstrap";

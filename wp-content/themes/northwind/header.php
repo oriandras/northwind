@@ -8,7 +8,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <header id="masthead" class="site-header">
-    <div class="site-branding">
+    <div class="site-branding col-md-3 mb-2 mb-md-0">
         <?php
         if ( is_front_page() && is_home() ) :
             ?>
